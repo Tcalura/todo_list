@@ -3,3 +3,5 @@
 
 Você esta logado <%= current_user.name %>
 
+<br>
+<%= link_to '[SAIR]', destroy_user_session_path, method: :delete %>
