@@ -17,6 +17,9 @@ class TasksController < ApplicationController
   # GET /tasks/1
   # GET /tasks/1.json
   def show
+    unless helpers.authorized?(@task)
+      redirect_to authenticated_root_path, :flash => { :error => 'Acesso Negado!' }
+    end
   end
 
   # GET /tasks/new
