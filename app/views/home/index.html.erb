@@ -4,4 +4,8 @@
 Você esta logado <%= current_user.name %>
 
 <br>
+
+<p> <%= link_to 'Lista de Tarefas abertas', tasks_opened_path %></p>
+<p> <%= link_to 'Lista de Tarefas Fechadas', tasks_closed_path %></p>
+
 <%= link_to '[SAIR]', destroy_user_session_path, method: :delete %>
