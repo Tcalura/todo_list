@@ -53,6 +53,7 @@ group :development do
   gem 'pry'
   gem 'pry-rails'
   gem 'better_errors'
+  gem 'faker'
 end
 
 
