@@ -1,24 +1,8 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Informações do projeto 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    versão do ruby 2.6.2
+    versão do rails 5.2.2
+    
+#### Para executar os testes, foi gerado um binario para o rspec pela gem 'spring-commands-rspec', para serem mais rapidos.
+    bin/rspec 
